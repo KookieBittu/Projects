@@ -18,7 +18,7 @@ function buttonClick(value){
 
 function handleSymbol(symbol){
     switch(symbol){
-        case 'C':
+        case 'AC':
             buffer = '0';
             runningTotal = 0;
             break;
@@ -58,13 +58,13 @@ function handleMath(symbol){
         runningTotal = intBuffer;
     }
     else{
-        flushOperatiopn(intBuffer);
+        flushOperation(intBuffer);
     }
     previousOperator = symbol;
     buffer='0';
 }
 
-function flushOperatiopn(intBuffer){
+function flushOperation(intBuffer){
     if(previousOperator === '+'){
         runningTotal += intBuffer;
     }
