@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="cal.css">
+</head>
+<body>
+    
+    <div class="mainbody" style="height: 69.5vh; width: 50vh; border: 2px solid black;">
+        <div class="circle">
+            <div id="circle1"></div>
+            <div id="circle2"></div>
+            <div id="circle3"></div>
+        </div>
+        <div class="output" id="display"></div>
+        <div class="input">
+            <input type="button" value="AC" onclick="allclear()" style="background-color: #414141;">
+            <input type="button" value="&larr;" onclick="clear()"style="background-color: #414141;">
+            <input type="button" value="+/-" onclick="signcng()" style="background-color: #414141;">
+            <input type="button" value="÷" onclick="appenddisplay('/')" style="background-color: #cb7e23;">
+
+            <input type="button" value="7" onclick="appenddisplay('7')">
+            <input type="button" value="8" onclick="appenddisplay('8')">
+            <input type="button" value="9" onclick="appenddisplay('9')">
+            <input type="button" value="×" onclick="appenddisplay('*')" style="background-color: #cb7e23;">
+
+            <input type="button" value="4" onclick="appenddisplay('4')">
+            <input type="button" value="5" onclick="appenddisplay('5')">
+            <input type="button" value="6" onclick="appenddisplay('6')">
+            <input type="button" value="-" onclick="appenddisplay('-')" style="background-color: #cb7e23;">
+
+            <input type="button" value="1" onclick="appenddisplay('1')">
+            <input type="button" value="2" onclick="appenddisplay('2')">
+            <input type="button" value="3" onclick="appenddisplay('3')">
+            <input type="button" value="+" onclick="appenddisplay('+')" style="background-color: #cb7e23;">
+
+            <input type="button" class="zero" value="0" onclick="appenddisplay('0')">
+            <input type="button" value="." onclick="appenddisplay('.')">
+            <input type="button" class="equal" value="=" onclick="calculate()" style="background-color: #606060;">
+            <input type="button" class="modul" value="%" onclick="appenddisplay('%')" style="background-color: #cb7e23;">
+        </div>
+    </div>
+
+    <script src="cal.js"></script>
+</body>
+</html>
