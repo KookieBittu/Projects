@@ -1,0 +1,142 @@
+*{
+    margin: 0;
+    padding:0;
+}
+.ff{
+    background-image: linear-gradient(180deg, #ffffff, #a6b5bd);
+    min-height: 100vh;
+}
+
+.form{
+    background-color: #316ff6;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: small ;
+    color: azure;
+    height: 85px;
+}
+.signing{
+    display: flex;
+    justify-content: flex-end;
+    position: absolute;
+    top: 20px;
+    right: 10%;
+
+}
+
+#email{
+    margin-right: 10px;
+    top: 20px;
+}
+#password{
+    margin-right: 10px;
+    top: 20px;
+}
+#log{
+    color: #ffffff;
+    background-color: #2b5ecd;
+    top: 20px;
+    border-color: #102759;
+    border-radius: 2px;
+    margin-right: 5px;
+}
+.fbb{
+    position: absolute;
+    right: 85%;
+    top: 20px;
+    font-size: 135%;
+}
+.downform{
+    position: absolute;
+    right: 20%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: small;
+    margin-top: 30px;
+    
+}
+#fn{
+    margin-right: 10px;
+    top: 20px;
+    margin-bottom: 10px;
+}
+#ep{
+    margin-right: 10px;
+    top: 20px;
+    margin-bottom: 10px;
+    padding-right: 180px;
+}
+#pw{
+    margin-right: 10px;
+    top: 20px;
+    margin-bottom: 10px;
+    padding-right: 180px;
+}
+#dt{
+    margin-bottom: 10px;
+}
+#bts{
+    margin-top: 50px;
+    height: 30px;
+    width: 150px;
+    background-color: rgb(26, 113, 32);
+    color: #ffffff;
+    border-radius: 5px;
+    border: none;
+}
+.picimg{
+    position: absolute;
+    right: 450px;
+    top: 50px;
+}
+#textmob{
+    padding-left: 60px;
+    border: none;
+}
+#passmob{
+    padding-left: 60px;
+    border: none;
+}
+#logmob{
+    padding: 5px 80px 5px 80px;
+    background-color: #3401ff;
+    color: white;
+    border: none;
+    border-radius: 3px;
+}
+#newaccmob{
+    padding: 5px 10px 5px 10px;
+    background-color: #006810;
+    color: white;
+    border: none;
+    border-radius: 3px;
+}
+
+
+.page2{
+    height: 800px;
+    
+}
+
+
+@media screen and (max-width: 480px) {
+    .ff {
+        display: none;
+ 
+    }
+
+    .page2 {
+        display: block;
+       
+    }
+}
+
+@media screen and (min-width: 480px) {
+    .ff {
+        display: block;
+ 
+    }
+
+    .page2 {
+        display: none;
+       
+    }
+}
